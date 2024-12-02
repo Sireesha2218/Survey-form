@@ -74,20 +74,20 @@
             <form id="form">
                <div class="form-control">
                    <label for="name" id="label-name"> Name </label>
-                   <input type ="text" id="name" placeholder="Enter your Name"/>
+                   <input type ="text" id="name" placeholder="Enter your Name" required/>
                 </div>
 
               <div class="form-control">
                   <label for="email" id="label-email"> Email </label>
-                  <input type="email" id="email" placeholder="Enter your Email"/>
+                  <input type="email" id="email" placeholder="Enter your Email" required />
              </div>
 
              <div class="form-control">
                   <label for="age" id="label-age" > Age </label>
-                  <input type ="age" id="age" placeholder="Enter your Age "/>
+                  <input type ="age" id="age" placeholder="Enter your Age" required/>
               </div>
 
-            <div class="form-control"
+            <div class="form-control" required >
                  <label for="role" id="label-role"> Which option describes you? </label>
                  <select name="role" id="role">
                         <option value="student"> Student </option>
@@ -98,7 +98,7 @@
                    </select>
              </div>
          
-             <div class="form-control">
+             <div class="form-control" required>
                 <label > Languages and Frameworks Known
                         <small> (check all that apply) </small>
                 </label>
@@ -134,7 +134,7 @@
                </label>
            </div>
 
-             <div class="form-control">
+             <div class="form-control" required>
                   <label for="recommend" id="label-recommend"> Would you like to recommend to a Friend </label>
                     <label for="recommend-1">
                     <input type="radio" id="recommend"  name="recommend">Yes </input>
